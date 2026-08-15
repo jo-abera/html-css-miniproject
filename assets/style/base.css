@@ -204,6 +204,17 @@ small {
 .btn-primary {
   background-color: var(--color-primary);
   color: var(--text-main);
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.35);
+}
+
+.btn-primary:focus-visible,
+.btn-secondary:focus-visible,
+.icon-btn:focus-visible,
+.nav-link:focus-visible,
+.form-input:focus-visible,
+.toggle-checkbox:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
 .btn-secondary {
@@ -236,7 +247,7 @@ small {
 .form-label {
   font-size: var(--font-size-caption);
   font-weight: var(--font-weight-medium);
-  color: var(--text-main);
+  color: var(--text-muted);
 }
 
 .form-input {
@@ -335,7 +346,7 @@ small {
 
 .toggle-label {
   font-size: var(--font-size-caption);
-  color: var(--text-main);
+  color: var(--text-muted);
   cursor: pointer;
 }
 
