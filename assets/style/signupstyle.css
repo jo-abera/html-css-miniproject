@@ -61,3 +61,40 @@
 .input-wrapper {
   width: 100%;
 }
+
+/* =============================================
+   Mobile Responsiveness
+   ============================================= */
+
+@media (max-width: 768px) {
+  .signup-layout {
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px;
+    min-height: auto;
+  }
+
+  .signup-banner {
+    flex: none;
+    width: 100%;
+    max-height: none;
+  }
+
+  .signup-banner img {
+    min-height: 200px;
+    height: 220px;
+  }
+
+  .signup-main {
+    width: 100%;
+  }
+
+  .signup-card {
+    max-width: none;
+  }
+
+  .signup-title {
+    font-size: var(--font-size-h3);
+    margin-bottom: 24px;
+  }
+}
