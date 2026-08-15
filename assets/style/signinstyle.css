@@ -32,10 +32,12 @@
 .signin-form-container {
   width: 100%;
   max-width: 400px;
+  position: relative;
+  z-index: 1;
 }
 
 .signin-title {
-  font-size: var(--font-size-h2);
+  font-size: var(--font-size-h1);
   font-weight: var(--font-weight-bold);
   margin-bottom: 32px;
 }
