@@ -1,3 +1,63 @@
 @import url('base.css');
 
-/* Sign Up page styles — added in subsequent features */
+/* =============================================
+   Sign Up — Desktop Layout (Side-by-Side)
+   ============================================= */
+
+.signup-layout {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  min-height: 100vh;
+  padding: 48px;
+}
+
+.signup-banner {
+  flex: 1;
+  max-height: calc(100vh - 96px);
+  overflow: hidden;
+  border-radius: var(--radius);
+}
+
+.signup-banner img {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.signup-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-card {
+  width: 100%;
+  max-width: 420px;
+}
+
+.signup-title {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 32px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signup-redirect {
+  margin-top: 24px;
+  font-size: var(--font-size-caption);
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.input-wrapper {
+  width: 100%;
+}
