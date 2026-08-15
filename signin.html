@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In | DataSync Pro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style/signinstyle.css">
+</head>
+<body>
+  <div class="signin-layout">
+
+    <!-- Left: Featured Office Image -->
+    <aside class="signin-banner" aria-label="Office workspace">
+      <img src="assets/images/global_performance_summary.jpg" alt="Modern office workspace with professionals collaborating">
+    </aside>
+
+    <!-- Right: Sign In Form -->
+    <main class="signin-main">
+      <section class="signin-form-container">
+        <h1 class="signin-title">Sign In</h1>
+
+        <form class="signin-form" action="#" method="post">
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-input"
+              placeholder="Email"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="form-input"
+              placeholder="Password"
+              required
+            >
+          </div>
+
+          <div class="form-group form-group--inline">
+            <input type="checkbox" id="remember" name="remember" class="toggle-checkbox">
+            <label for="remember" class="toggle-label">Remember me</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">Sign In</button>
+        </form>
+
+        <nav class="signin-links" aria-label="Sign in navigation">
+          <a href="#" class="link link-primary">Forgot password?</a>
+          <p class="signin-redirect">
+            Don't have an account?
+            <a href="signup.html" class="link link-primary">Sign Up</a>
+          </p>
+        </nav>
+      </section>
+    </main>
+
+  </div>
+</body>
+</html>
